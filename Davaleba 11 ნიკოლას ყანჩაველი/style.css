@@ -1,0 +1,282 @@
+.header{
+    height: 300px;
+    width: 1440px;
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 0;
+    background-color: #13345B;
+}
+
+ul{
+    display: flex;
+    gap: 52px;
+}
+.li1{
+    color: #FDD504;
+    height: 44px;
+    width: 104px;
+    margin-left: 500px;
+    margin-top: -100px;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+ 
+}
+
+.li2{
+    height: 44px;
+    width: 104px;
+    margin-left: 52px;
+    margin-top: -100px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FDD504;
+}
+
+.li3{
+    height: 44px;
+    width: 104px;
+    margin-left: 52px;
+    margin-top: -100px;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FD0404;
+}
+.cart{
+    margin-left: 1120px;
+    margin-top: -250px;
+}
+.h_1 {
+    height: 58px;
+    width: 262px;
+    margin-left: 589px;
+    margin-top: 114px;
+    border-radius: nullpx;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color:#13345B;
+}
+
+.section_maindiv {
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_1 {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.div_2 {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+
+}
+
+.label{
+    font-size: 1.25rem;
+    color: #13345B;
+    align-items: right;
+    margin-left: 20px;
+}
+.label1{
+    font-size: 1.25rem;
+    color: #13345B;
+    align-items: right;
+    margin-left: 20px;
+    margin-left: 800px;
+}
+.label2{
+    font-size: 1.25rem;
+    color: #13345B;
+    align-items: right;
+}
+.label3{
+    font-size: 1.25rem;
+    color: #13345B;
+    align-items: right;
+    margin-left: 800px;
+}
+
+
+.input {
+    border: 0;
+    width: 100%;
+    height: 58px;
+    background: #B3E9F5;
+    margin: 8px 0px 25px 0px;
+    margin-left: 20px;
+}
+
+.input1{
+    border: 0;
+    width: 100%;
+    height: 58px;
+    background: #B3E9F5;
+    margin: 8px 0px 25px 0px;
+    margin-left: 800px;
+    margin-top: -100px;
+}
+
+.input2{
+    border: 0;
+    width: 100%;
+    height: 58px;
+    background: #B3E9F5;
+    margin: 32px 0px 25px 0px;
+    margin-left: 20px;
+}
+.input3{
+    border: 0;
+    width: 100%;
+    height: 58px;
+    background: #B3E9F5;
+    margin: 8px 0px 25px 0px;
+    margin-left: 800px;
+    margin-top: -100px;
+}
+/* checkbox */
+.h2 {
+    margin-top: 120px;
+    font-size: 32px;
+    color:#15C1E7;
+}
+
+.h_2real{
+    color: #15C1E7;
+    font-size: 32px;
+}
+
+.div_for_radio {
+    display: flex;
+    margin: 33px 0px 64px 0px;
+}
+
+.div_for_radio>input {
+    width: 32px;
+
+}
+
+.div_for_radio>label {
+    font-size: 1.25rem;
+    color: #13345B;
+    margin-right: 60px;
+}
+
+.div_for_checkbox {
+    display: flex;
+    margin-top: 33px;
+}
+
+.div_for_checkbox>input {
+    width: 32px;
+}
+
+.div_for_checkbox>label {
+    font-size: 1.25rem;
+    color: #13345B;
+    margin-right: 60px;
+}
+
+/* file */
+
+.h_2 {
+    margin: 64px 0px 32px 0px;
+    font-size: 32px;
+    color:#15C1E7;
+}
+
+.file {
+    font-size: 2rem;
+    color: #000000;
+}
+
+.reset {
+    margin: 121px 0px 128px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.submit_btn {
+    width: 48%;
+    background: #FDD504;
+    border-radius: 15px;
+    padding: 32px 0px;
+    font-size: 2.25rem;
+    color: #FFFFFF;
+}
+
+.reset_btn {
+    width: 48%;
+    background: #15C1E7;
+    border-radius: 15px;
+    padding: 32px 257px;
+    font-size: 2.25rem;
+    color: #FFFFFF;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background: #13345B;
+    padding: 60px 0px 60px 0px;
+    display: flex;
+justify-content: center;
+}
+
+.icon_div{
+    display: flex;
+    gap: 69px;
+}
+
+
+.fa-brands{
+font-size: 5rem;
+
+}
+
+.facebook{
+    color: #15C1E7;
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-right: 60px;
+}
+.instagram{
+color:  #FB0110;
+margin-right: 60px;
+}
+.twitter{
+color: #75A1F3;
+margin-right: 60px;
+
+
+}
+.youtube{
+   color: #FDD504;
+
+}
+
+
+.footer{
+    height: 200px;
+width: 1440px;
+left: 0px;
+top: 1716px;
+border-radius: 0px;
+}
